@@ -1,0 +1,91 @@
+# OCaml build artifacts
+_build/
+*.cmi
+*.cmo
+*.cmx
+*.cma
+*.cmxa
+*.cmxs
+*.cmt
+*.cmti
+*.a
+*.o
+*.so
+*.dylib
+*.dll
+
+# Dune build artifacts
+.merlin
+.utop-history
+dune-project.opam
+
+# Generated files
+*.install
+*.opam
+META
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.bak
+*.backup
+
+# ROM files (optional - uncomment if you don't want to track ROM files)
+# *.nes
+# *.rom
+# *.bin
+
+# Coverage and profiling
+bisect*.coverage
+*.coverage
+_coverage/
+coverage/
+
+# Documentation build
+_doc/
+doc/_build/
+
+# Local configuration
+.env
+.env.local
+config.local
+
+# Test artifacts
+*.test
+test_results/
+
+# Debugging files
+*.debug
+gmon.out
+core
+core.*
+
+# Executables
+*.exe
+*.out
+main
+yane
+
+# Package manager
+node_modules/
+.npm/
+.yarn/

@@ -1,0 +1,4 @@
+(executable
+ (public_name yane)
+ (name main)
+ (libraries yane unix))
